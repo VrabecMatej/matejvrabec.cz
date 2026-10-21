@@ -252,7 +252,7 @@ footer a{color:#fff}
  "description":"Pojištění, hypotéky, úvěry a investice. Kontrola smluv a schůzky zdarma.",
  "image":"https://matejvrabec.cz/img/hero.jpg","url":"https://matejvrabec.cz/","telephone":"+420739711502","email":"matej.vrabec@benefitas.cz",
  "areaServed":["Trutnov","Královéhradecký kraj","Česká republika"],
- "address":{"@type":"PostalAddress","addressLocality":"Trutnov","addressRegion":"Královéhradecký kraj","addressCountry":"CZ"},
+ "address":{"@type":"PostalAddress","streetAddress":"Polská 431","postalCode":"541 01","addressLocality":"Trutnov","addressRegion":"Královéhradecký kraj","addressCountry":"CZ"},
  "founder":{"@type":"Person","name":"Matěj Vrabec"},
  "sameAs":["https://www.instagram.com/matej_vrabec.benefitas/"]}
 </script>
@@ -547,7 +547,7 @@ footer a{color:#fff}
       <details open><summary>Kolik mě schůzky stojí?</summary><p>Nic. Všechny schůzky i kontrola stávajících smluv jsou zdarma a k ničemu vás nezavazují. Odejdete s přehledem, co máte, a s doporučením, co by stálo za změnu.</p></details>
       <details><summary>Co si mám na schůzku připravit?</summary><p>Ideálně smlouvy, které si dnes platíte: pojištění, úvěry, spoření nebo investice. Stačí i fotky v mobilu. Když je nemáte po ruce, nevadí, dohledáme je spolu.</p></details>
       <details><summary>Musím po kontrole něco měnit?</summary><p>Ne. Ukážu vám, kde vidím chyby nebo zbytečné výdaje, a vysvětlím proč. Jestli a co změníte, je jen na vás.</p></details>
-      <details><summary>Kde se potkáme?</summary><p>V Trutnově a okolí, kdekoli v Královéhradeckém kraji, nebo online přes videohovor. Pojištění auta a nemovitostí vyřešíme i na dálku po celé republice.</p></details>
+      <details><summary>Kde se potkáme?</summary><p>V mé kanceláři v Trutnově (Polská 431), u vás kdekoli v Královéhradeckém kraji, nebo online přes videohovor. Pojištění auta a nemovitostí vyřešíme i na dálku po celé republice.</p></details>
       <details><summary>Pomůžete mi, když se něco stane?</summary><p>Ano, a to u jakékoli smlouvy, i když jste ji nesjednávali přese mě. Pomůžu vám pojistnou událost nahlásit, poradím, jaké doklady připravit a jak postupovat, abyste dostali plnění, na které máte nárok.</p></details>
       <details><summary>Proč řešit všechno u jednoho člověka?</summary><p>Protože spolu věci souvisí. Výše hypotéky ovlivňuje, jak vysoké má být životní pojištění, a investice by měly počítat s rezervou. Když to vidím celé, nic se nepřekrývá a nic nechybí.</p></details>
     </div>
@@ -582,7 +582,7 @@ footer a{color:#fff}
 <footer>
   <div class="wrap">
     <img src="img/benefit-logo-white.svg" alt="Benefit" width="116" height="58">
-    <div><b>Matěj Vrabec</b><br>finanční poradce<br>IČO: 21444552</div>
+    <div><b>Matěj Vrabec</b><br>finanční poradce<br>IČO: 21444552<br>Kancelář: Polská 431, 541 01 Trutnov</div>
     <div class="regs">
       <div><b>Pojištění:</b> vázaný zástupce společnosti Benefit investment a.s., Pražákova 1008/69, Štýřice, 639 00 Brno, IČO: 28359682</div>
       <div><b>Investice a úvěry:</b> vázaný zástupce společnosti holver s.r.o., Hrušovská 3203/13a, 702 00 Ostrava, IČO: 25860399</div>
@@ -592,7 +592,7 @@ footer a{color:#fff}
     <div class="full">Výpočty na webu jsou orientační a zjednodušené. Nejde o nabídku, investiční doporučení ani doporučení konkrétního produktu. Konkrétní řešení vždy vychází z analýzy vašich potřeb při osobním jednání.</div>
     <details id="gdpr" class="full">
       <summary>Ochrana osobních údajů</summary>
-      <p><b>Správce:</b> Matěj Vrabec, IČO 21444552, e-mail matej.vrabec@benefitas.cz, tel. +420 739 711 502.</p>
+      <p><b>Správce:</b> Matěj Vrabec, IČO 21444552, kancelář Polská 431, 541 01 Trutnov, e-mail matej.vrabec@benefitas.cz, tel. +420 739 711 502.</p>
       <p><b>Jaké údaje a proč:</b> jméno, příjmení, telefon, zvolené téma a případně výsledek kalkulačky, který formulář přiloží. Používám je jen k tomu, abych vás kontaktoval ohledně vaší poptávky. Právním základem je váš souhlas a jednání o smlouvě na vaši žádost (čl. 6 odst. 1 písm. a) a b) GDPR).</p>
       <p><b>Jak dlouho:</b> nejdéle 12 měsíců od odeslání, pokud mezi námi nevznikne spolupráce. Pokud spolupráce vznikne, zpracování údajů se dále řídí informacemi o zpracování osobních údajů společností Benefit investment a.s. (pojištění) a holver s.r.o. (investice a úvěry), které vám předám při jednání.</p>
       <p><b>Kdo k údajům má přístup:</b> služba Web3Forms, která zprávu z formuláře doručí na můj e-mail, a poskytovatel mé e-mailové schránky. Web běží na GitHub Pages (GitHub, Inc.), který jako každý webový server krátkodobě eviduje technické údaje o přístupu, např. IP adresu. Web3Forms i GitHub mohou údaje zpracovávat mimo EU. Údaje nikomu neprodávám ani nepředávám pro marketing.</p>
@@ -649,6 +649,7 @@ topo(el("topo2"), "#FFFFFF", .06);
   let h = "";
   if (CONFIG.phone) h += `<a class="ch" href="tel:${CONFIG.phone.replace(/\s/g,"")}"><span class="ico">${ic.phone}</span><div><div class="k">Telefon</div><div class="v">${CONFIG.phone}</div></div></a>`;
   if (CONFIG.email) h += `<a class="ch" href="mailto:${CONFIG.email}"><span class="ico">${ic.mail}</span><div><div class="k">E-mail</div><div class="v">${CONFIG.email}</div></div></a>`;
+  h += `<a class="ch" href="https://www.google.com/maps/search/?api=1&query=Polsk%C3%A1+431%2C+541+01+Trutnov" target="_blank" rel="noopener"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><div class="k">Kancelář</div><div class="v">Polská 431, 541 01 Trutnov</div></div></a>`;
   if (CONFIG.instagram) h += `<a class="ch" href="${igUrl}" target="_blank" rel="noopener"><span class="ico">${ic.ig}</span><div><div class="k">Instagram</div><div class="v">@${CONFIG.instagram}</div></div></a>`;
   el("channels").innerHTML = h;
   if (CONFIG.instagram) el("hdr-ig").href = igUrl; else el("hdr-ig").hidden = true;
