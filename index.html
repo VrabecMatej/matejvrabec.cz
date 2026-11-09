@@ -191,7 +191,9 @@ section.block{padding-block:84px}
 
 /* reviews */
 .reviews{background:var(--soft)}
-.rev-grid{display:grid;grid-template-columns:1.3fr 1fr .9fr;gap:20px;align-items:stretch}
+.rev-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.rev-main{grid-column:1/-1}
+.rev-main blockquote{font-size:20px}
 .rev{margin:0;background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;display:flex;flex-direction:column;gap:16px}
 .rev .stars{color:#F2B705;letter-spacing:3px;font-size:18px}
 .rev blockquote{margin:0;font-size:18px;line-height:1.5;color:var(--ink);flex:1}
@@ -515,9 +517,14 @@ footer a{color:#fff}
     <div class="sec-head">
       <div class="eyebrow">Reference</div>
       <h2>Co o mně říkají klienti</h2>
-      <p>Recenze jsou převzaté z Google profilu společnosti Benefit investment, kde mě klienti zmínili jménem. Jejich pravost sám neověřuji. Google uvádí, že recenze neověřuje, ale odstraňuje podvodný obsah.</p>
+      <p>Recenze jsou převzaté z Google profilu společnosti Benefit investment, kde mě klienti zmínili jménem. Texty jsou mírně zkrácené a opravené bez změny smyslu. Jejich pravost sám neověřuji. Google uvádí, že recenze neověřuje, ale odstraňuje podvodný obsah.</p>
     </div>
     <div class="rev-grid">
+      <figure class="rev rev-main">
+        <div class="stars" aria-label="5 hvězdiček na Googlu">★★★★★</div>
+        <blockquote>„Matěj Vrabec je pro mě nejúžasnější finanční poradce a skvělý člověk. Empatie na pět hvězd. Svou práci pro mou rodinu odvedl vždy na 100 %. Komunikace srozumitelná, vždy najdeme možnosti a jakýkoliv problém vyřešíme mailem, po telefonu a v krátké době. Jakmile řeším uplatnění pojistky, vždy se na něho můžu obrátit a vím, že mi ušetří pracovní čas i stres. Více takových lidí a svět bude zase v pořádku.“</blockquote>
+        <figcaption><b>Miroslava K.</b><span>Trutnov · Google recenze</span></figcaption>
+      </figure>
       <figure class="rev">
         <div class="stars" aria-label="5 hvězdiček na Googlu">★★★★★</div>
         <blockquote>„Pan Vrabec je na svůj věk velmi zkušený, vnímavý a s osobitým přístupem, vše pečlivě vysvětlí, nic vám nevnucuje. Snaží se pomoci a vybere takové možnosti, které jsou přímo pro vás. Toto je již třetí smlouva od pana Vrabce, mohu vřele doporučit.“</blockquote>
